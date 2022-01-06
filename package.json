@@ -1,0 +1,21 @@
+{
+  "name": "@bradenhc/toml",
+  "version": "0.1.0",
+  "description": "A TOML parser with pluggable schema validation",
+  "type": "module",
+  "main": "lib/toml.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [
+    "toml",
+    "schema",
+    "config"
+  ],
+  "author": "Braden Hitchcock <developer.hitchcock@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.5"
+  }
+}
